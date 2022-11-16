@@ -144,7 +144,7 @@ body {
     color: var(--color-gray);
 } 
 .contacts-icon {
-    fill: #757575;
+    fill: var(--color-gray);
     margin-right: 10px;
    
 }
@@ -412,6 +412,8 @@ body {
 }
     
 /* footer */
+
+ 
 .div-contacts {
     margin-right: 70px;
 }
@@ -457,7 +459,7 @@ body {
 .foot-networks {
     width: 206px;
     height: 80px;
-    align-items: baseline;
+    
 }
 
 .foot-title {
@@ -473,6 +475,7 @@ body {
 }
 .div-foot {
     display: flex;
+    align-items: baseline;
 }
 .foot-list {
     display: flex;
